@@ -12,8 +12,8 @@ Projeto de controle financeiro para organizar e gerenciar suas finanças de mane
 ## Tecnologias Utilizadas
 
 - Backend: Node.js, Express
-- Frontend: React (ou Next.js)
-- Banco de Dados: PostgreSQL (ou MongoDB)
+- Frontend: React 
+- Banco de Dados: PostgreSQL
 
 ## Como Rodar o Projeto
 
