@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #e8f5e9, #d7eaf7);
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  input, button {
+    font-family: inherit;
+    border: none;
+    outline: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  

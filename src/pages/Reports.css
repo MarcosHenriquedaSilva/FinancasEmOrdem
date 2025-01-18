@@ -1,0 +1,31 @@
+.reports-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #d7eaf7, #e8f5e9);
+    min-height: 100vh;
+  }
+  
+  .reports-container h1 {
+    color: #4caf50;
+    margin-bottom: 1rem;
+  }
+  
+  .reports-graphs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .reports-graphs div {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 200px;
+  }
+  
