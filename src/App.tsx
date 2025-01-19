@@ -6,16 +6,21 @@ import Transactions from './pages/Transactions';
 import Reports from './pages/Reports';
 import Categories from './pages/Categories';
 import Settings from './pages/Settings';
-
 import Navbar from './components/Navbar';
+import PrivateRoute from "./components/PrivateRoute";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={
+            <PrivateRoute>
+              <Dashboard />
+            </PrivateRoute>
+          }/>
+          <Route path="*" element={<Login />} />
         <Route path="/transactions" element={<Transactions />} />
         <Route path="/reports" element={<Reports />} />
         <Route path="/categories" element={<Categories />} />
